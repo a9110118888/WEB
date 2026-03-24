@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router";
-import heroImage from "/my-ph1.png";
+import heroImage from "/ph1.png";
 import { useLanguage } from "../context/LanguageContext";
 import { motion } from "motion/react";
 
