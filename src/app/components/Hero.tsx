@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router";
-import heroImage from "/ph1.png";
 import { useLanguage } from "../context/LanguageContext";
 import { motion } from "motion/react";
 
@@ -57,7 +56,7 @@ export function Hero() {
         className="absolute inset-0 z-0"
       >
         <img
-          src={heroImage}
+          src="/ph1.png"
           alt="Yu Chen Lin Background"
           className="w-full h-full object-cover object-[75%_center] md:object-center"
         />
